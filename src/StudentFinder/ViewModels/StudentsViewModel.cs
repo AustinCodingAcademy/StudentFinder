@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace StudentFinder.Models.ViewModels
+namespace StudentFinder.ViewModels
 {
     public class StudentsViewModel
     {
@@ -13,6 +13,8 @@ namespace StudentFinder.Models.ViewModels
         public string fName { get; set; }
         public string lName { get; set; }
         public string GradeLevel { get; set; }
+        public string StudentSchoolId { get; set; }
+        
 
         //Space Info
         public int SpaceId { get; set; }
